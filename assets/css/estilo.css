@@ -43,7 +43,7 @@ section iframe#tela {
 
 section#redes-sociais {
     position: absolute;
-    right: 15px;
+    right: 0;
     height: 100%;
     width: 15%;
     display: flex;
