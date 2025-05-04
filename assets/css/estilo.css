@@ -45,12 +45,13 @@ section#redes-sociais {
     position: absolute;
     right: 0;
     height: 100%;
-    width: 15%;
+    width: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    border: 2px solid red;
 }
 section#redes-sociais img {
     width: 50px;
