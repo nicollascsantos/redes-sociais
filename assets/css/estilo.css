@@ -31,7 +31,7 @@ main section {
 }
 
 section#telefone {
-    width: 275px;
+    width: 300px;
     background: url(../imagens/frame-iphone.png) center no-repeat scroll;
     background-size: cover;
     display: flex;
@@ -42,8 +42,8 @@ section#telefone {
 }
 
 section iframe#tela {
-    width: 230px;
-    height: 400px;
+    width: 234px;
+    height: 412px;
     border: none;
 }
 
