@@ -23,7 +23,7 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid green;
-    gap: 20px;
+    gap: 15px;
 }
 
 main section {
@@ -31,12 +31,14 @@ main section {
 }
 
 section#telefone {
-    width: 260px;
+    width: 275px;
     background: url(../imagens/frame-iphone.png) center no-repeat scroll;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+    border: 2px solid red;
 }
 
 section iframe#tela {
