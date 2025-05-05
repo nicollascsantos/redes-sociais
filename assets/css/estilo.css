@@ -30,7 +30,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 5px;
+    padding: 5px 10px 5px 5px;
     background-color: #00000040;
 }
 
