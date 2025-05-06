@@ -29,9 +29,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    padding: 5px 10px 5px 5px;
-    background-color: #00000040;
+    gap: 10px;
+    padding: 5px 10px;;
+    background-color: #00000030;
 }
 
 section {
@@ -49,7 +49,7 @@ section#telefone {
 
 section iframe#tela {
     width: 230px;
-    height: 408px;
+    height: 404px;
     border: none;
 }
 
@@ -61,15 +61,22 @@ section#redes-sociais {
     gap: 30px;
 }
 
-section#redes-sociais a:hover img {
-    transform: scale(1.2);
-    box-shadow: 0px 0px 5px 3px #ffffff50;
-}
 
-section#redes-sociais img {
+section#redes-sociais a img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     box-shadow: 0px 0px 5px 3px #00000080;
     transition: all 0.2s ease-out;
+}
+
+section#redes-sociais a:hover img {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px 3px #ffffff50;
+}
+
+section#redes-sociais a:active img {
+    transform: scale(1);
+    transition: 0s;
+    box-shadow: 0px 0px 3px 5px #ffffff80;
 }
